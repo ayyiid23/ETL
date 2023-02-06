@@ -3,9 +3,9 @@ import snowflake.connector
 
 
 conn=snowflake.connector.connect(
-    user='diyaaryal',
-    password='Manashwi@123',
-    account='dt69880.central-india.azure',
+    user='',
+    password='',
+    account='',
     database='BHATBHATENI',
     warehouse='COMPUTE_WH'
 )
@@ -23,9 +23,9 @@ cur= conn.cursor()
 
 def connect():
     conn=snowflake.connector.connect(
-            user='diyaaryal',
-            password='Manashwi@123',
-            account='dt69880.central-india.azure',
+            user='',
+            password='',
+            account='',
             database='BHATBHATENI',
             warehouse='COMPUTE_WH'
             )
